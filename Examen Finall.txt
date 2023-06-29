@@ -1,0 +1,228 @@
+create table comidarapida(     /*Creamos primera table de los producto*/
+id_p number(20) constraint pk_id_p PRIMARY KEY,
+nombre_p char(60) not null,
+precio_p number(5) not null,
+num_tipo number(20) not null,
+num_mar number(20) not null
+);
+
+drop table comidarapida;       
+select * from comidarapida;   
+truncate table comidarapida;  
+
+insert into comidarapida values (1,'Mazapan',5,1,2);          /*ingresamos los 75 datss*/
+insert into comidarapida values (2,'Peñafiel de Limon',18,5,4);
+insert into comidarapida values (3,'Sabritas adobadas',19,2,5);
+insert into comidarapida values (4,'Bolis de Galleta',15,3,1);
+insert into comidarapida values (5,'Galletas Bombon',22,4,3);
+insert into comidarapida values (6,'Aciditos',2,1,2);
+insert into comidarapida values (7,'Peñafiel de Fresa',18,5,4);
+insert into comidarapida values (8,'Sabritas de Limon',19,2,5);
+insert into comidarapida values (9,'Bolis de Rompope',15,3,1);
+insert into comidarapida values (10,'Galletas Ricanelas',25,4,3);
+insert into comidarapida values (11,'Gomitas',3,1,2);
+insert into comidarapida values (12,'Peñafiel de Piña',18,5,4);
+insert into comidarapida values (13,'Sabritas Flamin',15,2,5);
+insert into comidarapida values (14,'Bolis de Chocolate',15,3,1);
+insert into comidarapida values (15,'Galletas de Naranja',22,4,3);
+insert into comidarapida values (16,'Cacahuate Japones',12,1,2);
+insert into comidarapida values (17,'Peñafiel de naranja',18,5,4); 
+insert into comidarapida values (18,'Sabritas Jalapeño',22,2,5);
+insert into comidarapida values (19,'Bolis de Nuez',15,3,1);
+insert into comidarapida values (20,'Galletas Clasicas',22,4,3);
+insert into comidarapida values (21,'Chicles',4,1,2);
+insert into comidarapida values (22,'Peñafiel de arandano',18,5,4);
+insert into comidarapida values (23,'Sabritas Naturales',18,2,5);
+insert into comidarapida values (24,'Bolis de grosella',15,3,1);
+insert into comidarapida values (25,'Galletas de Coco',20,4,3);
+insert into comidarapida values (26,'Caramelitos',3,1,2);
+insert into comidarapida values (27,'Peñafiel de toronja',18,5,4);
+insert into comidarapida values (28,'Sabritas Chip',22,2,5);
+insert into comidarapida values (29,'Bolis de tamarindo',15,3,1);
+insert into comidarapida values (30,'Galletas Florentinas',22,4,3);
+insert into comidarapida values (31,'Paleta',5,1,2);
+insert into comidarapida values (32,'Peñafiel de coco',18,5,4);
+insert into comidarapida values (33,'Sabritas Piquin',17,2,5);
+insert into comidarapida values (34,'Bolis de limon',15,3,1);
+insert into comidarapida values (35,'Galletas Maravillas',33,4,3);
+insert into comidarapida values (36,'Pulparindo',4,1,2);
+insert into comidarapida values (37,'Peñafiel gasificada',18,5,4);
+insert into comidarapida values (38,'Sabritas japonesas',32,2,5);
+insert into comidarapida values (39,'Bolis de cajeta',15,3,1);
+insert into comidarapida values (40,'Galletas Mantequilla',28,4,3);
+insert into comidarapida values (41,'Tupsi Bota',28,1,2);
+insert into comidarapida values (42,'Peñafiel natural',18,5,4);
+insert into comidarapida values (43,'Sabritas churrumais',14,2,5);
+insert into comidarapida values (44,'Bolis de nescafe',15,3,1);
+insert into comidarapida values (45,'Galletas Saladitas',55,4,3);
+insert into comidarapida values (46,'Bianchi',7,1,2);
+insert into comidarapida values (47,'Peñafiel Quinada',18,5,4);
+insert into comidarapida values (48,'Sabritas receta crujiente',19,3,2);
+insert into comidarapida values (49,'Bolis de capuchino',15,3,1);
+insert into comidarapida values (50,'Mamut',8,4,3);
+insert into comidarapida values (51,'Bombones',12,1,2);
+insert into comidarapida values (52,'Peñafiel de Uva',18,5,4);
+insert into comidarapida values (53,'Sabritas rancheritos',16,2,5);
+insert into comidarapida values (54,'Bolis de fresa',15,3,1);
+insert into comidarapida values (55,'Galletas Crackets',14,4,3);
+insert into comidarapida values (56,'ChocoBombon',26,1,2);
+insert into comidarapida values (57,'Peñafiel de Manzana',18,5,4);
+insert into comidarapida values (58,'Sabritas Queso',17,2,5);
+insert into comidarapida values (59,'Bolis de coco',15,3,1);
+insert into comidarapida values (60,'Galletas Malvon',18,4,3);
+insert into comidarapida values (61,'Sandia Pop',6,1,2);
+insert into comidarapida values (62,'Peñafiel de Mandarina',18,5,4);
+insert into comidarapida values (63,'Sabritas chile y limon',23,2,5);
+insert into comidarapida values (64,'Bolis de nutella',15,3,1);
+insert into comidarapida values (65,'Galletas Chocolate',27,4,3);
+insert into comidarapida values (66,'Cereza Pop',4,1,2);
+insert into comidarapida values (67,'Peñafiel de Pera',18,5,4);
+insert into comidarapida values (68,'Sabritas habanero',19,2,5);
+insert into comidarapida values (69,'Bolis de piña',15,3,1);
+insert into comidarapida values (70,'Galletas amaranto',18,4,3);
+insert into comidarapida values (71,'Chewy Candies',9,1,2);
+insert into comidarapida values (72,'Peñafiel de Frutos Rojos',18,5,4);
+insert into comidarapida values (73,'Sabritas hot',20,2,5);
+insert into comidarapida values (74,'Bolis de Zarzamora',15,3,1);
+insert into comidarapida values (75,'Galletas Nuez',20,4,3);
+_________________________________________________________________________________________________________________________________________  
+
+
+create table tipoProd(        /*Creamos la segunda tabla de los tipos de productos */
+id_t number(50) constraint pk_id_t PRIMARY KEY,
+tipo_p char(50) not null
+);
+
+drop table tipoProd;      
+select * from tipoProd;     
+truncate table tipoProd;
+
+insert into tipoProd values(76,'Jeringa');
+insert into tipoProd values(77,'Hielo');
+insert into tipoProd values(78,'Catalogo');
+insert into tipoProd values(79,'Pastillas');
+insert into tipoProd values(80,'Celular');
+
+create sequence sec_incrementoIdTipoo        
+start with 1
+increment by 1
+maxvalue 100
+minvalue 1;
+
+drop sequence sec_incrementoIdTipoo;     /*Sentencia para eliminar una secuencia*/
+
+_________________________________________________________________________________________________________________________________________  
+
+
+create table marcaProd(    /*Creamos la tabla de las marca de los productos*/
+id_m number(50) constraint pk_id_m PRIMARY KEY,
+marca_p char(50) not null
+);
+
+drop table marcaProd;      /* eliminar la tabla*/
+select * from marcaProd;    /*Muestra los datos ingresados*/
+truncate table marcarProd;
+
+insert into marcaProd values(81,'Topper Were');
+insert into marcaProd values(82,'Avon');
+insert into marcaProd values(83,'Jafra');
+insert into marcaProd values(84,'Fuller');
+insert into marcaProd values(85,'Arabela');
+
+
+create sequence sec_incrementoIdMarca     
+start with 1
+increment by 1
+maxvalue 100
+minvalue 1;
+
+drop sequence sec_incrementoIdMarca;     /*eliminar una secuencia*/
+
+_________________________________________________________________________________________________________________________________________  
+
+create or replace trigger tr_llenarTipo        /*Creacion de trigger */
+before insert
+on comidarapida
+for each row
+begin
+if: new.num_tipo = 1 then
+    insert into tipoProd values(sec_incrementoIdTipoo.nextval,'Dulces');   
+    end if;
+if: new.num_tipo = 2 then
+    insert into tipoProd values(sec_incrementoIdTipoo.nextval,'Botanas');
+    end if;
+if: new.num_tipo = 3 then
+    insert into tipoProd values(sec_incrementoIdTipoo.nextval,'Helados');
+    end if;
+if: new.num_tipo = 4 then
+    insert into tipoProd values(sec_incrementoIdTipoo.nextval,'Galletas');
+    end if;
+if: new.num_tipo = 5 then
+    insert into tipoProd values(sec_incrementoIdTipoo.nextval,'Refresco');
+    end if;
+    end;
+    
+_________________________________________________________________________________________________________________________________________  
+create or replace trigger tr_llenarMarca    /*Creacion de trigger con buenas practicas*/
+before insert
+on comidarapida
+for each row
+begin
+if: new.num_mar = 1 then
+    insert into marcaProd values(sec_incrementoIdMarca.nextval,'Nestle');
+    end if;
+if: new.num_mar = 2 then
+    insert into marcaProd values(sec_incrementoIdMarca.nextval,'DelaRosa');
+    end if;
+if: new.num_mar = 3 then
+    insert into marcaProd values(sec_incrementoIdMarca.nextval,'Gamesa');
+    end if;
+if: new.num_mar = 4 then
+    insert into marcaProd values(sec_incrementoIdMarca.nextval,'Peñafiel');
+    end if;
+if: new.num_mar = 5 then
+    insert into marcaProd values(sec_incrementoIdMarca.nextval,'Sabritas');
+    end if;
+    end;
+    
+_________________________________________________________________________________________________________________________________________  
+
+select comidarapida.nombre_p, comidarapida.precio_p, tipoProd.tipo_p, marcaProd.marca_p from tipoProd full join marcaProd on tipoProd.id_t=marcaProd.id_m full join comidarapida on comidarapida.id_p=marcaProd.id_m; /* uso de los joins */
+
+select comidarapida.nombre_p, marcaProd.marca_p from comidarapida inner join marcaProd on comidarapida.id_p=marcaProd.id_m where marcaProd.marca_p='Barcel';
+
+select * from comidarapida left join tipoProd on comidarapida.id_p=tipoProd.id_t where tipoProd.id_t is null;
+
+select * from comidarapida right join marcaProd on comidarapida.id_p=marcaProd.id_m where comidarapida.id_p is not null;
+
+select * from comidarapida full join tipoProd on comidarapida.id_p=tipoProd.id_t full join marcaProd on comidarapida.id_p=marcaProd.id_m where comidarapida.id_p is null or tipoProd.id_t is null;
+
+select * from comidarapida inner join tipoProd on comidarapida.id_p=tipoProd.id_t inner join marcaProd on comidarapida.id_p=marcaProd.id_m where comidarapida.nombre_p like 't%' or comidarapida.nombre_p like 'T%';
+
+_________________________________________________________________________________________________________________________________________  
+                                           
+create table extra(     /* Tabla extra examen */     
+texto char(200)
+);
+
+select * from extra;
+drop table extra;
+
+create or replace trigger tr_mensaje
+before insert 
+on comidarapida
+for each row when(new.nombre_p like 'T%')
+begin
+insert into extra values('Se inserto un producto con la vitamina T con el nombre de ' || :new.nombre_p);
+end tr_mensaje;
+_________________________________________________________________________________________________________________________________________  
+                                                
+create view vw_datosProd as          /* vista create view */
+select comidarapida.nombre_p as PRODUCTO,marcaProd.marca_p AS MARCA
+from comidarapida 
+inner join marcaProd
+on comidarapida.id_p=marcaProd.id_m;
+
+select * from vw_datosProd;                             
+drop view vw_datosProd;         /*eliminar una vista*/  
+_________________________________________________________________________________________________________________________________________                                              
